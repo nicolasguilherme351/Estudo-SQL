@@ -1,0 +1,2 @@
+A normalização é uma forma para eliminar redundâncias e melhorar a 
+organização e desempenho. 

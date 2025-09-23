@@ -1,0 +1,3 @@
+A primeira forma normal visa eliminar atributos multivalorados e atributos compostos daquela
+tabela.
+
