@@ -12,7 +12,7 @@ CREATE TABLE banda (
 
 
 CREATE TABLE banda_lugar3 (
-	id_nome_lider INT UNIQUE,
+	id_nome_lider INT,
 	id_banda INT,
 	nome_lugar varchar(30),
 	FOREIGN KEY (id_nome_lider) REFERENCES lider_banda(id_nome_lider),
