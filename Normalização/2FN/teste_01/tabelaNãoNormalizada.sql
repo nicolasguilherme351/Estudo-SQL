@@ -1,10 +1,10 @@
-USE databasetest;
+USE DTO;
 
 CREATE TABLE banda_lugar (
-	id_nome_lider INT,
+	id_produtora INT,
 	id_banda INT,
 	nome_lugar varchar(30),
-	nome_lider varchar(30),
+	nome_produtora varchar(30),
 	nome_banda varchar(30)
 
 )

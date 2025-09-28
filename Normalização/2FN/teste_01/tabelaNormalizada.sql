@@ -1,8 +1,8 @@
-USE databasetest;
+USE DTO;
 
-CREATE TABLE lider_banda (
-	id_nome_lider INT PRIMARY KEY,
-	nome_lider varchar(30)
+CREATE TABLE produtora (
+	id_produtora INT PRIMARY KEY,
+	nome_produtora varchar(30)
 )
 
 CREATE TABLE banda (
@@ -11,11 +11,11 @@ CREATE TABLE banda (
 )
 
 
-CREATE TABLE banda_lugar3 (
-	id_nome_lider INT,
+CREATE TABLE banda_lugar (
+	id_produtora INT,
 	id_banda INT,
 	nome_lugar varchar(30),
-	FOREIGN KEY (id_nome_lider) REFERENCES lider_banda(id_nome_lider),
+	FOREIGN KEY (id_produtora) REFERENCES produtora(id_produtora),
 	FOREIGN KEY (id_banda) REFERENCES banda(id_banda),
 
 )
