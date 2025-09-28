@@ -1,12 +1,12 @@
 USE DTO;
 
 CREATE TABLE produtora (
-	id_produtora INT PRIMARY KEY,
+	id_produtora INT PRIMARY KEY IDENTITY(1,1),
 	nome_produtora varchar(30)
 )
 
 CREATE TABLE banda (
-	id_banda INT PRIMARY KEY,
+	id_banda INT PRIMARY KEY IDENTITY(1,1),
 	nome_banda varchar(30)
 )
 
