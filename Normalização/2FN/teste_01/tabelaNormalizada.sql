@@ -15,6 +15,7 @@ CREATE TABLE banda_lugar (
 	id_produtora INT,
 	id_banda INT,
 	nome_lugar varchar(30),
+	dataHoraEvento DATETIME,
 	FOREIGN KEY (id_produtora) REFERENCES produtora(id_produtora),
 	FOREIGN KEY (id_banda) REFERENCES banda(id_banda),
 

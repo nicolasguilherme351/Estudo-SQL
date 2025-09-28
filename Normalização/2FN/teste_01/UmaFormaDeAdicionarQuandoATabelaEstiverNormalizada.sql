@@ -1,0 +1,2 @@
+USE DTO;
+INSERT INTO banda_lugar VALUES (1, 1, 'Céu - pracinha',CONVERT(DATETIME, '30/09/2025 19:30', 103))
