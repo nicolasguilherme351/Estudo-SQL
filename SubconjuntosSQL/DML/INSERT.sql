@@ -1,0 +1,1 @@
+INSERT INTO usuario VALUES ('Nicolas3', 'Senha1234', 'M', 43);

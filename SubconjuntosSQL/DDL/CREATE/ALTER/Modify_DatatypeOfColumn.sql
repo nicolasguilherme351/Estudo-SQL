@@ -1,0 +1,1 @@
+ALTER TABLE usuario ALTER COLUMN nome2 DECIMAL(2, 0); 

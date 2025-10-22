@@ -1,0 +1,1 @@
+UPDATE usuario SET nome2 = 99 WHERE id_usuario = 2; 
