@@ -1,0 +1,6 @@
+USE database1;
+BEGIN TRANSACTION;
+UPDATE usuario2
+SET nome2 = 99;
+SELECT * FROM usuario2;
+COMMIT;

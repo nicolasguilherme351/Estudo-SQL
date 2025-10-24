@@ -1,0 +1,5 @@
+BEGIN TRANSACTION;
+UPDATE usuario2
+SET nome2 = 7;
+SELECT * FROM usuario2;
+COMMIT;
