@@ -7,6 +7,6 @@ CREATE TABLE usuario2 (
 )
 CREATE TABLE usuario_telefone ( 
 	id_usuario INT , 
-	endereco varchar(11),
+	telefone varchar(11),
 	FOREIGN KEY (id_usuario) REFERENCES usuario2(id_usuario)
 )
