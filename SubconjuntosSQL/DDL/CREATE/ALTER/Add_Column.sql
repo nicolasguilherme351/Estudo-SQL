@@ -1,1 +1,0 @@
-ALTER TABLE usuario ADD nome2 varchar(30); 
